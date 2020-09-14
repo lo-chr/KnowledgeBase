@@ -18,7 +18,6 @@ This document contains several references to information security, incident resp
 
 ## Windows Security
 * Ultimate IT-Security, Windows Security Log Events: https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx
-* Benjamin Delpy, mimikatz Documentation: https://github.com/gentilkiwi/mimikatz/wiki
 * Sean Metcalf, adsecurity.org, Attack Defense & Detection: https://adsecurity.org/?page_id=4031
 * Fireeye, Greater Visibility Through PowerShell Logging: https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html
 * Ryan McFarland, Windows Privilege Escalation Guide: https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/
@@ -26,9 +25,13 @@ This document contains several references to information security, incident resp
 * Microsoft, KRBTGT Account Password Reset Scripts now available for customers: https://www.microsoft.com/security/blog/2015/02/11/krbtgt-account-password-reset-scripts-now-available-for-customers/ / https://gallery.technet.microsoft.com/Reset-the-krbtgt-account-581a9e51
 * Bloodhound, Documentation: https://bloodhound.readthedocs.io/en/latest/index.html
 * Microsoft, Active Directory administrative tier model: https://docs.microsoft.com/de-de/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material
+* SwiftOnSecurity, Sysmon-Config: https://github.com/SwiftOnSecurity/sysmon-config
+* Microsoft, Audit Policy Recommendations: https://docs.microsoft.com/de-de/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations
+* Microsoft, Monitoring Active Directory for Signs of Compromise: https://docs.microsoft.com/de-de/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise
 
 ## Cloud Security
 * Toni De La Fuente, My arsenal of aws security tools: https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+* RhinoSecurityLabs, AWS-IAM-Privilege-Escalation: https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation
 
 ## Detection Rules
 * SIGMA Specification: https://github.com/Neo23x0/sigma/wiki/Specification
@@ -49,6 +52,8 @@ This document contains several references to information security, incident resp
 * Cuckoo Sandbox, Documentation: https://cuckoo.sh/docs/
 * Volatility, Documentation: https://github.com/volatilityfoundation/volatility/wiki
 * Rekall, Documentation: http://www.rekall-forensic.com/documentation-1/rekall-documentation
+* Tshark Examples, Theory & Implementation, Blog Article: https://www.activecountermeasures.com/tshark-examples-theory-implementation/
+* Forensic Mounting of Disk Images using Ubuntu 20.04: https://medium.com/@stdout_/forensic-mounting-of-disk-images-using-ubuntu-20-04-fe8165fca3eb
 
 ## Distributions
 * Tsurigi Linux - Your DFIR Linux distribution: https://tsurugi-linux.org
@@ -58,6 +63,12 @@ This document contains several references to information security, incident resp
 ## Tool References
 * Shell Commandline Reference: https://explainshell.com
 * Microsoft, Powershell Documentation: https://docs.microsoft.com/en-us/powershell/
+* Microsoft, Sysmon: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon
+* Benjamin Delpy, mimikatz Documentation: https://github.com/gentilkiwi/mimikatz/wiki
 
 ## Information Sharing
 * FIRST, Traffic Light Protocol (TLP): https://www.first.org/tlp/
+
+## Cheat Sheets
+* SANS Cheatsheets, https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
+* Github, Markdown Cheatsheets https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
