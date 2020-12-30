@@ -16,19 +16,6 @@ This document contains several references to information security, incident resp
 * Nils Kuhnert, Threat Actor Map: https://aptmap.netlify.app
 * ATC Project, Atomic Threat Coverage: https://github.com/atc-project/atomic-threat-coverage
 
-## Windows Security
-* Ultimate IT-Security, Windows Security Log Events: https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx
-* Sean Metcalf, adsecurity.org, Attack Defense & Detection: https://adsecurity.org/?page_id=4031
-* Fireeye, Greater Visibility Through PowerShell Logging: https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html
-* Ryan McFarland, Windows Privilege Escalation Guide: https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/
-* g0tm1k, Basic Linux Privilege Escalation: https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
-* Microsoft, KRBTGT Account Password Reset Scripts now available for customers: https://www.microsoft.com/security/blog/2015/02/11/krbtgt-account-password-reset-scripts-now-available-for-customers/ / https://gallery.technet.microsoft.com/Reset-the-krbtgt-account-581a9e51
-* Bloodhound, Documentation: https://bloodhound.readthedocs.io/en/latest/index.html
-* Microsoft, Active Directory administrative tier model: https://docs.microsoft.com/de-de/windows-server/identity/securing-privileged-access/securing-privileged-access-reference-material
-* SwiftOnSecurity, Sysmon-Config: https://github.com/SwiftOnSecurity/sysmon-config
-* Microsoft, Audit Policy Recommendations: https://docs.microsoft.com/de-de/windows-server/identity/ad-ds/plan/security-best-practices/audit-policy-recommendations
-* Microsoft, Monitoring Active Directory for Signs of Compromise: https://docs.microsoft.com/de-de/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise
-
 ## Cloud Security
 * Toni De La Fuente, My arsenal of aws security tools: https://github.com/toniblyx/my-arsenal-of-aws-security-tools
 * RhinoSecurityLabs, AWS-IAM-Privilege-Escalation: https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation
@@ -41,19 +28,19 @@ This document contains several references to information security, incident resp
 ## Artifact Analysis
 * Google, Timesketch: https://github.com/google/timesketch
 * Elastic, Elastic Stack Documentation: https://www.elastic.co/guide/index.html
-* Tasos Chatziefstratiou, Windows Events & Sysmon Visualization using Neo4j: https://medium.com/@pentesttas/windows-events-sysmon-visualization-using-neo4j-part-1-529ca5ab4593 / https://medium.com/@pentesttas/windows-events-sysmon-visualization-using-neo4j-part-2-d4c2fd3c9413
 * Virustotal.com, Documentation: https://support.virustotal.com/hc/en-us/categories/360000162878-Documentation
 * Velociraptor, Documentation: https://www.velocidex.com/docs/
 * GRR, Documentation: https://grr-doc.readthedocs.io
 * OSQuery, Documentation: https://osquery.readthedocs.io/en/stable/
 * Moloch, Documentation: https://molo.ch/learn
 * TheHive Project, Cortex, Documentation: https://github.com/TheHive-Project/CortexDocs
-* Microsoft, Use Windows Event Forwarding to help with intrusion detection: https://docs.microsoft.com/de-de/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection
 * Cuckoo Sandbox, Documentation: https://cuckoo.sh/docs/
 * Volatility, Documentation: https://github.com/volatilityfoundation/volatility/wiki
 * Rekall, Documentation: http://www.rekall-forensic.com/documentation-1/rekall-documentation
+* Project Jupyter, Jupyter Notebook: https://jupyter.org
 * Tshark Examples, Theory & Implementation, Blog Article: https://www.activecountermeasures.com/tshark-examples-theory-implementation/
 * Forensic Mounting of Disk Images using Ubuntu 20.04: https://medium.com/@stdout_/forensic-mounting-of-disk-images-using-ubuntu-20-04-fe8165fca3eb
+* Didier Stevens, CobaltStrike Config Dump: https://blog.didierstevens.com/2020/11/07/1768-k/
 
 ## Distributions
 * Tsurigi Linux - Your DFIR Linux distribution: https://tsurugi-linux.org
@@ -70,5 +57,15 @@ This document contains several references to information security, incident resp
 * FIRST, Traffic Light Protocol (TLP): https://www.first.org/tlp/
 
 ## Cheat Sheets
-* SANS Cheatsheets, https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
-* Github, Markdown Cheatsheets https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+* SANS Cheatsheets: https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/
+* SANS Poster: https://www.sans.org/security-resources/posters
+* Github, Markdown Cheatsheets: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+* Roger Dudler, git - the simple guide: https://rogerdudler.github.io/git-guide/
+* Hacking Articles, Incident Response - Windows Cheatsheet: https://www.hackingarticles.in/incident-response-windows-cheatsheet/
+* Hacking Articles, Incident Response - Linux Cheatsheet: https://www.hackingarticles.in/incident-response-linux-cheatsheet/
+* InfosecMatter, Powershell Commands for Pentesters: https://www.infosecmatter.com/powershell-commands-for-pentesters/
+
+## Lab-Setup
+* Christophe Tafani-Dereeper, Automating the provisioning of Active Directory labs in Azure: https://blog.christophetd.fr/automating-the-provisioning-of-active-directory-labs-in-azure/
+* Liam Smith, Building An Incident Response And Forensics Homelab https://medium.com/@liamcs98/building-an-incident-response-and-forensics-homelab-pt1-workstation-and-file-storage-e23eca7ea57a / https://medium.com/@liamcs98/building-a-incident-response-and-forensics-homelab-pt2-autopsy-and-central-repository-b090ce1e01c3
+* Tranquilsec, Setting up DetectionLab: https://tranquilsec.com/setting-up-detectionlab/
